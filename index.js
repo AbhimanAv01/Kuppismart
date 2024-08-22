@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
-const user = require('../backend/Routes/routes.js');
+const user = require('./Routes/routes');
 const cors = require("cors");
 
 
